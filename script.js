@@ -43,4 +43,25 @@ document.addEventListener('DOMContentLoaded', () => {
     ...scrollRevealOption,
     delay: 1500,
   });
+
+  ScrollReveal().reveal('.about__image img', {
+    ...scrollRevealOption,
+    origin: 'left',
+  });
+
+  ScrollReveal().reveal('.about__content .section__header', {
+    ...scrollRevealOption,
+    delay: 500,
+  });
+
+  ScrollReveal().reveal('.about__content p', {
+    ...scrollRevealOption,
+    delay: 1000,
+    interval: 500,
+  });
+
+  ScrollReveal().reveal('.about__btn', {
+    ...scrollRevealOption,
+    delay: 2000,
+  });
 });

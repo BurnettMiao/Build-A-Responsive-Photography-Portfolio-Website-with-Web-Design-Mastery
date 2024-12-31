@@ -74,4 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
     ...scrollRevealOption,
     delay: 2000,
   });
+
+  ScrollReveal().reveal('.contact__image img', {
+    ...scrollRevealOption,
+  });
 });
